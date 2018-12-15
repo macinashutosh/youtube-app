@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import './SearchBar.css';
 export class SearchBar extends Component{
   constructor(props){
     super();
