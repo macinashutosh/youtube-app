@@ -1,0 +1,22 @@
+.image-tab{
+    max-height: 400px;
+    opacity: 0.5;
+    transition: opacity 1s;
+    transition-duration: 1s;
+    transition: opacity 1s;
+}
+
+.image-tab.image-tab-active{
+    opacity: 1;
+}
+
+
+@keyframes example {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+  }
+  
