@@ -12,7 +12,22 @@ class App extends Component {
   }
   render (){  
     return <div className='app'> 
-      <PhotoGallery />
+      <ul>
+          <li><PhotoGallery positionX = {0} positionY= {0} width={200} height={200} position="relative" /></li>
+          <li><PhotoGallery positionX = {0} positionY= {0} width={200} height={200} position="relative" /></li>
+          <li><PhotoGallery positionX = {0} positionY= {0} width={200} height={200} position="relative" /></li>
+      </ul>
+      <ul>
+          <li><PhotoGallery positionX = {0} positionY= {0} width={200} height={200} position="relative" /></li>
+          <li><PhotoGallery positionX = {0} positionY= {0} width={200} height={200} position="relative" /></li>
+          <li><PhotoGallery positionX = {0} positionY= {0} width={200} height={200} position="relative" /></li>
+      </ul>
+      <ul>
+          <li><PhotoGallery positionX = {0} positionY= {0} width={200} height={200} position="relative" /></li>
+          <li><PhotoGallery positionX = {0} positionY= {0} width={200} height={200} position="relative" /></li>
+          <li><PhotoGallery positionX = {0} positionY= {0} width={200} height={200} position="relative" /></li>
+      </ul>
+      
     </div> 
   } 
 }
